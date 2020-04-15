@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <div class="row">
+    <div class="calculator">
+        <h2 class="heading">Interst calculator</h2>
+        <form class="" action="" id="loan-form">
+            <div class="form-row align-items-center">
+
+                <div class="input-group mb-2 col-xs-12">
+                    <div class="input-group-prepend">
+                    <div class="input-group-text">$</div>
+                    </div>
+                    <input type="number" class="form-control" id="amount" placeholder="Loan Amount">
+                </div>
+
+                <div class="input-group mb-2    col-xs-12">
+                    <div class="input-group-prepend">
+                    <div class="input-group-text">%</div>
+                    </div>
+                    <input type="number" class="form-control" id="interest" placeholder="Interest">
+                </div>
+                <div class="input-group mb-6 col-xs-12">
+                    <div class="input-group-prepend">
+                    <div class="input-group-text">@</div>
+                    </div>
+                    <input type="number" class="form-control" id="year" placeholder="Year to pay">
+                </div>
+
+                <div class="input-group mb-2 mb-4 col-xs-12">
+                    <input type="submit" value="Calculate" class="btn btn-success btn-block" id="submit">
+                </div>
+            </div>
+       </form>
+
+       <div class="col-sm-12 mt-3 ">
+        <div class="result">
+            <h5>Result</h5>
+             <div class="input-group mb-6 col-xs-12 mt-2">
+                 <div class="input-group-prepend">
+                     <div class="input-group-text">Monthly Payment</div>
+                 </div>
+                 <input type="text" class="form-control" id="MonthlyPayment" placeholder="" disabled>
+             </div>
+             <div class="input-group mb-6 col-xs-12">
+                 <div class="input-group-prepend">
+                     <div class="input-group-text">Total Payment</div>
+                 </div>
+                 <input type="text" class="form-control" id="TotalPayment" placeholder="" disabled>
+             </div>
+             <div class="input-group mb-6 col-xs-12">
+                 <div class="input-group-prepend">
+                     <div class="input-group-text">Total Interest</div>
+                 </div>
+                 <input type="text" class="form-control" id="totalInterest" placeholder="" disabled>
+             </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> -->
+    <script src="app.js"></script>
+</body>
+</html>

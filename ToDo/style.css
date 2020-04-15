@@ -1,0 +1,33 @@
+.thetodo {
+    width: 600px;
+    height: 600px;
+    background-color: aliceblue;
+    margin: 0 auto;    
+    float: none;
+    padding: 30px 15px;
+    margin-top: 40px;
+}
+.btn {
+    margin-top: 10px;
+}
+.todo-collection {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.todo-collection li {
+    margin-bottom: 5px;
+    word-break: break-word;
+}
+h2 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+.badge {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    border-radius: 0;
+    line-height: 3;
+    padding: 0px 10px;
+}
